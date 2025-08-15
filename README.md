@@ -1,11 +1,29 @@
+# 🗣️ Multi-Persona AI Chatbot  
+**Elegant Conversational AI — Powered by OpenAI GPT Models**  
 
-Project implements a custom character-level tokenizer in JavaScript.  
-It can learn and store vocabulary from input text, and encode/decode strings to/from token IDs.
+A highly customizable multi-persona chatbot implementation in Node.js, featuring two distinctive personalities:  
+- **Hitesh Choudhary** — Legendary developer, mentor, and founder of ChaiCode.  
+- **Piyush Garg** — Innovative full-stack developer, educator, and founder of Teachyst.  
 
-## Features
-- Handles special tokens:
-  - `<UNK>` — Unknown token
-  - `<PAD>` — Padding token
-- Dynamically builds vocabulary from training text.
-- Encodes text into token IDs.
-- Decodes token IDs back into text.
+This project demonstrates **persistent conversational context**, **role-based prompting**, and **distinct AI personas** using the OpenAI API.
+
+---
+
+## ✨ Features
+- **🎭 Multiple Personas** — Switch seamlessly between Hitesh and Piyush modes.
+- **🧠 Context Persistence** — Maintains full conversation history per persona.
+- **📚 Structured Prompts** — Pre-defined system messages for consistent behavior.
+- **🚀 Modern Stack** — Built with ES Modules, `dotenv`, and OpenAI SDK.
+- **⚡ Fast Response** — Uses `gpt-4o-mini` for low-latency, high-quality replies.
+
+---
+
+## 🛠️ Tech Stack
+- **Runtime:** Node.js (ESM)
+- **Language:** JavaScript (ES Modules)
+- **API:** [OpenAI Chat Completions API](https://platform.openai.com/docs/guides/text-generation)
+- **Environment Management:** `dotenv`
+
+---
+
+## 📂 Project Structure
